@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ol</title>
+</head>
+<body style="width: 60%; height: 100px; margin: auto; text-align: center;">
+    
+    <h1>Kayıt Ol</h1>
+    <hr>
+    <hr>
+
+    <header>
+        <nav>
+            <a href="index.html">Anasayfa</a>
+            <a href="en-iyi-filmler.html">Filmler</a>
+            <a href="en-iyi-diziler.html">Diziler</a>
+            <a href="en-iyi-oyunlar.html">Oyunlar</a>
+            <a href="#">Kayıt Ol</a>
+        </nav>
+        <hr>
+        <h1>Film, Dizi ve PC oyunlarına meraklıysanız bu site tam size göre!</h1>
+    </header>
+    
+    <h2>Hesap Bilgileriniz: </h2>
+    <form style="margin-left: 40%;">
+        <table>
+            <tr>
+                <td style="width: 100px;">
+                    <label for="username">Kullanıcı Adı: 
+                    </label>
+                </td>
+                <td></td>
+                <td>
+                    <input type="text" id="username" placeholder=" Kullanıcı adı giriniz">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="eposta">Eposta: </label>
+                </td>
+                <td></td>
+                <td>
+                    <input type="email" id="eposta" placeholder=" E-mailinizi giriniz">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="parola">Şifreniz: </label>
+                </td>
+                <td></td>
+                <td>
+                    <input type="password" id="parola" placeholder=" Şifrenizi oluşturunuz">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="parola2">Şifrenizi Doğrulayın: </label>
+                </td>
+                <td></td>
+                <td>
+                    <input type="password" id="parola2" placeholder=" Şifrenizi doğrulayınız">
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+
+    <h2>Kişisel Bilgileriniz: </h2>
+
+    <form style="margin-left: 36%;">
+        <table>
+            <tr>
+                <td style="width: 100px;">
+                    <label for="ad">Adınız: </label>
+                </td>
+                <td></td>
+                <td>
+                    <input type="text" id="ad" placeholder=" Adınızı giriniz">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="soyad">Soyadınız: </label>
+                </td>
+                <td></td>
+                <td>
+                    <input type="text" id="soyad" placeholder=" Soyadınızı giriniz">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sehir">Şehir: </label>
+                </td>
+                <td></td>
+                <td>
+                    <select id="sehir">
+                        <option>Seçiniz</option>
+                        <option>Ankara</option>
+                        <option>İstanbul</option>
+                        <option>İzmir</option>
+                        <option>Adana</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sex">Cinsiyet: </label>
+                </td>
+                <td></td>
+                <td>
+                    <input type="radio" name="sex"> Erkek
+                    <input type="radio" name="sex"> Kadın
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hobi">Hobileriniz: </label>
+                </td>
+                <td></td>
+                <td>
+                    <input type="checkbox"> Gezmek
+                    <input type="checkbox"> Spor
+                    <input type="checkbox"> Kitap
+                    <input type="checkbox"> Yazılım
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <a href="en-iyi-filmler.html">
+                        <button type="submit">Kaydet</button>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="reset">Temizle</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
